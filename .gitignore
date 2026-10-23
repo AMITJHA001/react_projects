@@ -1,0 +1,20 @@
+# Ignore all node_modules directories at any depth
+node_modules/
+
+# Ignore environment files
+.env
+.env.*
+
+# Allow example environment files
+!.env.example
+
+# Ignore build output
+dist/
+build/
+
+# Ignore common log files
+*.log
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
